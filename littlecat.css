@@ -2,7 +2,7 @@
  margin; padding et border à 0 pour que toute ma page sois bien centrer et utilise toute l'espace vide
  j'ai mit le font et la couleurs des textes ici car c'est la même pour toutes l'image   */
 * {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     border: 0;
     font-family: "Shadows Into Light", cursive;
