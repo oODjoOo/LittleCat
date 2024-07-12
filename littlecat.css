@@ -1,0 +1,43 @@
+/* J'ai utiliser l'étoile"*" pour cibler tous le code.
+ margin; padding et border à 0 pour que toute ma page sois bien centrer et utilise toute l'espace vide
+ j'ai mit le font et la couleurs des textes ici car c'est la même pour toutes l'image   */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color:#ffffff
+      
+}
+/* j'ai crée un container qui me servira à placer tous mes élément a l'interieur */
+
+.container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 799px;
+    height: 858px;
+    background-color: #29347B;
+}
+
+.Titre {
+    
+    font-size: 40px;
+    display: block;
+
+}
+
+.CatBox {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: flex-end;
+
+}
+
+img {
+    height: 200px;
+    width: 200px;
+}
