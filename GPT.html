@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galerie d'images en Flexbox</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        h1 {
+            margin: 20px 0;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+        }
+        .gallery img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border: 2px solid #ccc;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Galerie d'images</h1>
+    <div class="gallery">
+        <img src="image1.jpg" alt="Image 1">
+        <img src="image2.jpg" alt="Image 2">
+        <img src="image3.jpg" alt="Image 3">
+        <img src="image4.jpg" alt="Image 4">
+        <img src="image5.jpg" alt="Image 5">
+        <img src="image6.jpg" alt="Image 6">
+        <img src="image7.jpg" alt="Image 7">
+        <img src="image8.jpg" alt="Image 8">
+        <img src="image9.jpg" alt="Image 9">
+    </div>
+</body>
+</html>
